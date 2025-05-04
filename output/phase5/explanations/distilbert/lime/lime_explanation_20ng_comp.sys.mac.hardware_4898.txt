@@ -1,0 +1,5 @@
+Explanation for: tri peopl told even use dispkt packet would still incompat true...
+
+Predicted class: 20ng_comp.sys.mac.hardware with 0.0461 confidence
+
+Top features:

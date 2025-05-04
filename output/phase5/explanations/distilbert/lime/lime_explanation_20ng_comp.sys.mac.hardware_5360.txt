@@ -1,0 +1,5 @@
+Explanation for: corrupt theori pretti weak comparison current hebrew text old version translat show text fact chang ...
+
+Predicted class: 20ng_comp.sys.mac.hardware with 0.0481 confidence
+
+Top features:

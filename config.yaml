@@ -1,0 +1,69 @@
+# Configuration for Text Classification Preprocessing Pipeline
+
+# General Settings
+output_dir: "output"
+seed: 42
+
+# Dataset Settings
+use_20newsgroups: true
+use_ag_news: true
+use_imdb: true
+balance_classes: true
+create_unified_labels: true
+max_samples_per_class: 5000  # Set to null for no limit
+
+# Preprocessing Settings
+transformer_model: "bert-base-uncased"
+max_length: 512
+do_stemming: true
+do_lemmatization: false
+remove_stopwords: true
+remove_punctuation: true
+lowercase: true
+
+# OOV Handling Settings
+oov_strategy: "subword"  # Options: "subword", "unk", "ignore", "custom"
+max_vocab_size: 30000
+min_freq: 5
+
+# Data Augmentation Settings
+augment_data: true
+augmentation_factor: 1  # Number of augmented examples per original
+augmentation_techniques:
+  - "synonym_replacement"
+  - "random_insertion"
+  - "random_deletion"
+  - "random_swap"
+use_back_translation: true  # Whether to use back-translation (slow but effective)
+
+# Back-translation Settings (used if use_back_translation is true)
+translation_pairs:
+  - ["Helsinki-NLP/opus-mt-en-de", "Helsinki-NLP/opus-mt-de-en"]
+  - ["Helsinki-NLP/opus-mt-en-fr", "Helsinki-NLP/opus-mt-fr-en"]
+translation_batch_size: 8
+translation_max_length: 512
+
+# Split Settings
+test_size: 0.2
+val_size: 0.1
+stratify_splits: true
+
+# Analysis Settings
+analyze_data: true
+sample_size_for_analysis: 1000  # Number of samples to use for analysis
+embedding_visualization_methods:
+  - "tsne"
+  - "pca"
+  - "umap"
+
+# Advanced Settings
+log_level: "INFO"
+cache_dir: "model_cache"
+use_mixed_precision: true  # Whether to use mixed precision for faster processing
+parallel_processing: true  # Whether to use parallel processing when possible
+
+# Initialize NLTK resources
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')

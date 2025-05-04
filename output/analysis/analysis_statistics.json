@@ -1,0 +1,3198 @@
+{
+  "train_samples": 19863,
+  "train_class_distribution": {
+    "25": 795,
+    "20": 790,
+    "23": 787,
+    "22": 773,
+    "24": 771,
+    "4": 771,
+    "15": 771,
+    "21": 768,
+    "0": 765,
+    "3": 765,
+    "18": 765,
+    "13": 765,
+    "1": 762,
+    "14": 761,
+    "17": 760,
+    "6": 760,
+    "12": 759,
+    "16": 758,
+    "11": 758,
+    "5": 757,
+    "9": 755,
+    "2": 754,
+    "7": 753,
+    "10": 750,
+    "8": 746,
+    "19": 744
+  },
+  "train_source_distribution": {
+    "20newsgroups": 8793,
+    "20newsgroups_augmented": 6440,
+    "ag_news": 1782,
+    "ag_news_augmented": 1312,
+    "imdb": 881,
+    "imdb_augmented": 655
+  },
+  "train_text_length": {
+    "mean": 98.31817952977899,
+    "median": 41.0,
+    "min": 1,
+    "max": 8401,
+    "std": 307.3627727726082
+  },
+  "val_samples": 2838,
+  "val_class_distribution": {
+    "25": 114,
+    "20": 113,
+    "23": 113,
+    "22": 111,
+    "15": 110,
+    "21": 110,
+    "4": 110,
+    "24": 110,
+    "3": 109,
+    "6": 109,
+    "1": 109,
+    "18": 109,
+    "0": 109,
+    "17": 109,
+    "14": 109,
+    "13": 109,
+    "9": 108,
+    "5": 108,
+    "2": 108,
+    "12": 108,
+    "7": 108,
+    "11": 108,
+    "16": 108,
+    "10": 107,
+    "8": 106,
+    "19": 106
+  },
+  "val_source_distribution": {
+    "20newsgroups": 1225,
+    "20newsgroups_augmented": 958,
+    "ag_news": 249,
+    "ag_news_augmented": 184,
+    "imdb": 115,
+    "imdb_augmented": 107
+  },
+  "val_text_length": {
+    "mean": 89.89288231148696,
+    "median": 39.0,
+    "min": 1,
+    "max": 5453,
+    "std": 234.087327260587
+  },
+  "test_samples": 5676,
+  "test_class_distribution": {
+    "25": 227,
+    "20": 226,
+    "23": 225,
+    "22": 221,
+    "15": 221,
+    "21": 220,
+    "24": 220,
+    "4": 220,
+    "18": 219,
+    "3": 219,
+    "0": 218,
+    "13": 218,
+    "14": 218,
+    "1": 218,
+    "12": 217,
+    "17": 217,
+    "6": 217,
+    "16": 216,
+    "11": 216,
+    "9": 216,
+    "2": 216,
+    "5": 216,
+    "7": 215,
+    "10": 214,
+    "19": 213,
+    "8": 213
+  },
+  "test_source_distribution": {
+    "20newsgroups": 2542,
+    "20newsgroups_augmented": 1863,
+    "ag_news": 481,
+    "ag_news_augmented": 359,
+    "imdb": 260,
+    "imdb_augmented": 171
+  },
+  "test_text_length": {
+    "mean": 98.46247357293869,
+    "median": 42.0,
+    "min": 1,
+    "max": 6137,
+    "std": 295.2703600971002
+  },
+  "vocabulary": {
+    "total_words": 1952894,
+    "unique_words": 102394,
+    "top_words": {
+      "one": 11307,
+      "use": 10338,
+      "would": 9604,
+      "like": 7375,
+      "get": 7269,
+      "1": 6537,
+      "peopl": 6415,
+      "dont": 6170,
+      "time": 5951,
+      "know": 5782,
+      "make": 5418,
+      "2": 5363,
+      "think": 5296,
+      "also": 5165,
+      "say": 4993,
+      "x": 4910,
+      "go": 4757,
+      "work": 4473,
+      "see": 4355,
+      "good": 4293,
+      "well": 4225,
+      "could": 4224,
+      "new": 4179,
+      "even": 4139,
+      "us": 4109,
+      "year": 4045,
+      "0": 3921,
+      "file": 3889,
+      "may": 3812,
+      "system": 3796,
+      "look": 3793,
+      "first": 3774,
+      "two": 3651,
+      "way": 3650,
+      "want": 3627,
+      "thing": 3619,
+      "im": 3605,
+      "much": 3481,
+      "mani": 3469,
+      "right": 3409,
+      "tri": 3392,
+      "3": 3352,
+      "take": 3329,
+      "need": 3271,
+      "movi": 3162,
+      "said": 3138,
+      "call": 3122,
+      "come": 3113,
+      "problem": 3093,
+      "program": 3039,
+      "film": 2994,
+      "point": 2984,
+      "god": 2918,
+      "believ": 2842,
+      "realli": 2741,
+      "includ": 2739,
+      "state": 2699,
+      "seem": 2697,
+      "post": 2686,
+      "run": 2650,
+      "4": 2639,
+      "number": 2629,
+      "back": 2614,
+      "imag": 2581,
+      "question": 2551,
+      "find": 2510,
+      "give": 2489,
+      "gener": 2476,
+      "mean": 2453,
+      "window": 2451,
+      "anyon": 2449,
+      "inform": 2448,
+      "still": 2425,
+      "someth": 2413,
+      "set": 2410,
+      "differ": 2390,
+      "read": 2387,
+      "start": 2374,
+      "help": 2372,
+      "day": 2369,
+      "sinc": 2351,
+      "person": 2282,
+      "part": 2275,
+      "last": 2214,
+      "game": 2212,
+      "made": 2129,
+      "5": 2109,
+      "support": 2107,
+      "maxaxaxaxaxaxaxaxaxaxaxaxaxaxax": 2098,
+      "avail": 2079,
+      "anoth": 2073,
+      "ask": 2061,
+      "never": 2044,
+      "show": 2043,
+      "follow": 2040,
+      "pleas": 2025,
+      "case": 2023,
+      "ive": 2011,
+      "reason": 1997,
+      "data": 1987
+    }
+  },
+  "class_characteristics": {
+    "4": {
+      "sample_count": 771,
+      "avg_length": 58.66277561608301,
+      "std_length": 166.2881108971985,
+      "top_words": {
+        "use": 454,
+        "mac": 416,
+        "get": 356,
+        "appl": 325,
+        "problem": 322,
+        "one": 303,
+        "drive": 303,
+        "would": 293,
+        "system": 261,
+        "like": 235,
+        "work": 234,
+        "know": 225,
+        "disk": 202,
+        "monitor": 178,
+        "dont": 175,
+        "need": 174,
+        "im": 172,
+        "anyon": 165,
+        "machin": 164,
+        "thank": 162,
+        "card": 159,
+        "softwar": 158,
+        "want": 150,
+        "tri": 147,
+        "also": 142,
+        "comput": 140,
+        "question": 136,
+        "run": 135,
+        "could": 134,
+        "price": 134
+      }
+    },
+    "11": {
+      "sample_count": 758,
+      "avg_length": 143.36675461741424,
+      "std_length": 447.98230158780325,
+      "top_words": {
+        "use": 1105,
+        "db": 1098,
+        "key": 964,
+        "encrypt": 768,
+        "would": 649,
+        "one": 569,
+        "chip": 536,
+        "secur": 521,
+        "system": 506,
+        "govern": 504,
+        "anonym": 493,
+        "privaci": 423,
+        "inform": 401,
+        "like": 384,
+        "comput": 380,
+        "clipper": 377,
+        "peopl": 365,
+        "get": 348,
+        "post": 339,
+        "internet": 335,
+        "messag": 332,
+        "law": 325,
+        "may": 319,
+        "dont": 312,
+        "algorithm": 311,
+        "know": 311,
+        "could": 308,
+        "right": 307,
+        "number": 304,
+        "data": 300
+      }
+    },
+    "13": {
+      "sample_count": 765,
+      "avg_length": 128.7673202614379,
+      "std_length": 335.2098602894948,
+      "top_words": {
+        "use": 654,
+        "one": 576,
+        "get": 433,
+        "patient": 426,
+        "would": 423,
+        "medic": 369,
+        "diseas": 359,
+        "peopl": 342,
+        "like": 333,
+        "time": 329,
+        "health": 327,
+        "also": 324,
+        "dont": 322,
+        "effect": 290,
+        "studi": 287,
+        "infect": 285,
+        "year": 279,
+        "know": 277,
+        "doctor": 276,
+        "caus": 274,
+        "problem": 273,
+        "cancer": 267,
+        "inform": 263,
+        "think": 249,
+        "may": 237,
+        "treatment": 233,
+        "day": 231,
+        "take": 221,
+        "vitamin": 221,
+        "drug": 220
+      }
+    },
+    "0": {
+      "sample_count": 765,
+      "avg_length": 107.09803921568627,
+      "std_length": 267.4454110742079,
+      "top_words": {
+        "one": 707,
+        "god": 671,
+        "peopl": 533,
+        "say": 524,
+        "would": 499,
+        "dont": 461,
+        "atheist": 455,
+        "believ": 451,
+        "think": 391,
+        "make": 365,
+        "religion": 356,
+        "exist": 347,
+        "use": 337,
+        "belief": 336,
+        "know": 313,
+        "moral": 301,
+        "mani": 297,
+        "argument": 296,
+        "thing": 290,
+        "like": 289,
+        "time": 278,
+        "mean": 271,
+        "see": 263,
+        "even": 262,
+        "post": 256,
+        "christian": 256,
+        "jesu": 255,
+        "point": 253,
+        "way": 248,
+        "claim": 241
+      }
+    },
+    "21": {
+      "sample_count": 768,
+      "avg_length": 25.899739583333332,
+      "std_length": 8.279561930773662,
+      "top_words": {
+        "39": 179,
+        "new": 152,
+        "microsoft": 120,
+        "compani": 113,
+        "said": 101,
+        "internet": 99,
+        "comput": 95,
+        "softwar": 93,
+        "year": 92,
+        "system": 81,
+        "ap": 78,
+        "search": 77,
+        "launch": 73,
+        "servic": 70,
+        "say": 69,
+        "use": 67,
+        "phone": 67,
+        "space": 67,
+        "technolog": 63,
+        "first": 62,
+        "announc": 59,
+        "reuter": 55,
+        "us": 53,
+        "plan": 53,
+        "secur": 52,
+        "million": 51,
+        "user": 51,
+        "world": 51,
+        "game": 51,
+        "week": 50
+      }
+    },
+    "20": {
+      "sample_count": 790,
+      "avg_length": 26.548101265822783,
+      "std_length": 5.928655167153091,
+      "top_words": {
+        "39": 259,
+        "us": 204,
+        "said": 191,
+        "reuter": 187,
+        "new": 184,
+        "oil": 167,
+        "price": 130,
+        "compani": 123,
+        "inc": 120,
+        "york": 103,
+        "profit": 103,
+        "year": 96,
+        "percent": 89,
+        "corp": 88,
+        "sale": 87,
+        "unit": 86,
+        "share": 78,
+        "trade": 76,
+        "wednesday": 74,
+        "thursday": 73,
+        "cut": 72,
+        "billion": 71,
+        "monday": 70,
+        "busi": 70,
+        "report": 68,
+        "chief": 68,
+        "million": 67,
+        "buy": 65,
+        "execut": 65,
+        "expect": 65
+      }
+    },
+    "22": {
+      "sample_count": 773,
+      "avg_length": 25.267787839586028,
+      "std_length": 6.128588440305097,
+      "top_words": {
+        "39": 306,
+        "ap": 149,
+        "win": 117,
+        "team": 107,
+        "game": 101,
+        "one": 96,
+        "new": 92,
+        "first": 91,
+        "night": 87,
+        "victori": 86,
+        "saturday": 80,
+        "last": 79,
+        "season": 79,
+        "final": 78,
+        "world": 77,
+        "coach": 73,
+        "cup": 71,
+        "lead": 70,
+        "player": 65,
+        "leagu": 62,
+        "time": 61,
+        "year": 59,
+        "two": 57,
+        "score": 55,
+        "red": 55,
+        "champion": 54,
+        "open": 54,
+        "sunday": 54,
+        "state": 53,
+        "olymp": 53
+      }
+    },
+    "1": {
+      "sample_count": 762,
+      "avg_length": 163.55905511811022,
+      "std_length": 687.7690624460363,
+      "top_words": {
+        "imag": 1956,
+        "file": 1281,
+        "jpeg": 1078,
+        "use": 1055,
+        "program": 815,
+        "format": 732,
+        "data": 633,
+        "avail": 593,
+        "graphic": 566,
+        "system": 562,
+        "gif": 553,
+        "also": 538,
+        "softwar": 534,
+        "version": 507,
+        "display": 497,
+        "color": 488,
+        "get": 458,
+        "one": 442,
+        "would": 431,
+        "packag": 417,
+        "ftp": 377,
+        "comput": 357,
+        "like": 350,
+        "set": 339,
+        "work": 338,
+        "convert": 335,
+        "code": 331,
+        "inform": 326,
+        "know": 319,
+        "dont": 319
+      }
+    },
+    "19": {
+      "sample_count": 744,
+      "avg_length": 106.36559139784946,
+      "std_length": 176.1579987865388,
+      "top_words": {
+        "god": 568,
+        "one": 564,
+        "peopl": 531,
+        "christian": 505,
+        "would": 455,
+        "say": 448,
+        "jesu": 359,
+        "dont": 343,
+        "think": 323,
+        "know": 305,
+        "like": 297,
+        "believ": 293,
+        "use": 289,
+        "see": 281,
+        "even": 265,
+        "us": 258,
+        "make": 253,
+        "thing": 252,
+        "good": 246,
+        "moral": 240,
+        "bibl": 239,
+        "way": 237,
+        "mani": 235,
+        "also": 232,
+        "time": 231,
+        "may": 228,
+        "word": 227,
+        "point": 225,
+        "mean": 218,
+        "get": 209
+      }
+    },
+    "6": {
+      "sample_count": 760,
+      "avg_length": 78.39605263157895,
+      "std_length": 143.87931615071443,
+      "top_words": {
+        "1": 1199,
+        "2": 714,
+        "3": 392,
+        "new": 342,
+        "use": 335,
+        "sale": 319,
+        "offer": 313,
+        "includ": 289,
+        "one": 280,
+        "email": 256,
+        "price": 254,
+        "ship": 249,
+        "4": 245,
+        "pleas": 236,
+        "drive": 235,
+        "sell": 235,
+        "5": 220,
+        "condit": 212,
+        "10": 209,
+        "100": 206,
+        "game": 185,
+        "card": 180,
+        "interest": 176,
+        "ask": 175,
+        "list": 173,
+        "6": 172,
+        "copi": 167,
+        "like": 164,
+        "get": 164,
+        "work": 163
+      }
+    },
+    "7": {
+      "sample_count": 753,
+      "avg_length": 63.76892430278885,
+      "std_length": 95.26353879184661,
+      "top_words": {
+        "car": 861,
+        "one": 297,
+        "get": 288,
+        "would": 277,
+        "like": 276,
+        "use": 271,
+        "engin": 212,
+        "new": 196,
+        "dont": 190,
+        "also": 190,
+        "time": 184,
+        "good": 181,
+        "know": 178,
+        "think": 167,
+        "much": 166,
+        "year": 151,
+        "well": 150,
+        "go": 147,
+        "drive": 146,
+        "price": 146,
+        "make": 142,
+        "back": 141,
+        "look": 141,
+        "im": 134,
+        "oil": 130,
+        "problem": 129,
+        "could": 125,
+        "come": 118,
+        "buy": 117,
+        "want": 115
+      }
+    },
+    "5": {
+      "sample_count": 757,
+      "avg_length": 152.01981505944516,
+      "std_length": 599.8923843415441,
+      "top_words": {
+        "x": 4237,
+        "use": 1296,
+        "window": 919,
+        "file": 843,
+        "program": 673,
+        "widget": 605,
+        "get": 575,
+        "applic": 520,
+        "includ": 515,
+        "server": 509,
+        "set": 463,
+        "run": 454,
+        "system": 445,
+        "work": 419,
+        "one": 417,
+        "avail": 413,
+        "motif": 393,
+        "version": 393,
+        "also": 385,
+        "display": 367,
+        "support": 358,
+        "inform": 327,
+        "look": 320,
+        "manag": 320,
+        "entri": 306,
+        "like": 304,
+        "call": 298,
+        "resourc": 293,
+        "sun": 291,
+        "would": 285
+      }
+    },
+    "8": {
+      "sample_count": 746,
+      "avg_length": 53.28016085790885,
+      "std_length": 61.50128539362375,
+      "top_words": {
+        "bike": 447,
+        "one": 275,
+        "get": 243,
+        "like": 230,
+        "ride": 228,
+        "would": 203,
+        "dont": 191,
+        "go": 185,
+        "time": 163,
+        "make": 158,
+        "know": 157,
+        "look": 154,
+        "use": 151,
+        "well": 150,
+        "good": 141,
+        "back": 138,
+        "im": 137,
+        "think": 134,
+        "thing": 133,
+        "got": 115,
+        "take": 113,
+        "much": 111,
+        "right": 109,
+        "motorcycl": 108,
+        "say": 106,
+        "see": 103,
+        "dog": 103,
+        "car": 102,
+        "way": 102,
+        "work": 102
+      }
+    },
+    "25": {
+      "sample_count": 795,
+      "avg_length": 119.68050314465408,
+      "std_length": 95.34756577447541,
+      "top_words": {
+        "film": 1575,
+        "movi": 1177,
+        "one": 861,
+        "like": 534,
+        "time": 469,
+        "make": 461,
+        "good": 440,
+        "watch": 434,
+        "stori": 429,
+        "see": 411,
+        "charact": 381,
+        "love": 374,
+        "show": 365,
+        "get": 352,
+        "realli": 341,
+        "well": 312,
+        "great": 312,
+        "would": 308,
+        "even": 297,
+        "scene": 297,
+        "play": 296,
+        "also": 284,
+        "first": 272,
+        "peopl": 269,
+        "end": 254,
+        "best": 251,
+        "way": 250,
+        "go": 247,
+        "life": 246,
+        "made": 242
+      }
+    },
+    "10": {
+      "sample_count": 750,
+      "avg_length": 142.53333333333333,
+      "std_length": 530.8144869495892,
+      "top_words": {
+        "0": 3009,
+        "1": 2461,
+        "2": 2112,
+        "3": 1162,
+        "4": 1035,
+        "game": 976,
+        "team": 737,
+        "5": 721,
+        "7": 647,
+        "6": 605,
+        "play": 579,
+        "pt": 518,
+        "hockey": 490,
+        "550": 421,
+        "la": 416,
+        "player": 411,
+        "one": 365,
+        "10": 362,
+        "get": 350,
+        "year": 347,
+        "season": 340,
+        "8": 338,
+        "would": 319,
+        "nhl": 309,
+        "9": 304,
+        "goal": 290,
+        "vs": 285,
+        "go": 282,
+        "first": 281,
+        "leagu": 276
+      }
+    },
+    "17": {
+      "sample_count": 760,
+      "avg_length": 205.66315789473686,
+      "std_length": 483.4910761823039,
+      "top_words": {
+        "armenian": 1550,
+        "peopl": 1055,
+        "one": 1005,
+        "say": 711,
+        "would": 709,
+        "said": 702,
+        "israel": 697,
+        "us": 658,
+        "go": 587,
+        "jew": 563,
+        "isra": 537,
+        "kill": 520,
+        "right": 518,
+        "arab": 512,
+        "turkish": 506,
+        "dont": 492,
+        "time": 475,
+        "like": 465,
+        "know": 460,
+        "state": 455,
+        "muslim": 448,
+        "even": 412,
+        "well": 411,
+        "get": 411,
+        "first": 381,
+        "govern": 379,
+        "could": 372,
+        "year": 368,
+        "see": 366,
+        "nation": 358
+      }
+    },
+    "2": {
+      "sample_count": 754,
+      "avg_length": 92.12864721485411,
+      "std_length": 279.651650780237,
+      "top_words": {
+        "maxaxaxaxaxaxaxaxaxaxaxaxaxaxax": 2098,
+        "window": 774,
+        "use": 670,
+        "file": 590,
+        "driver": 321,
+        "one": 282,
+        "like": 270,
+        "get": 265,
+        "run": 255,
+        "problem": 249,
+        "would": 236,
+        "program": 235,
+        "know": 225,
+        "work": 218,
+        "dont": 191,
+        "system": 187,
+        "imag": 172,
+        "version": 169,
+        "31": 166,
+        "card": 163,
+        "anyon": 160,
+        "tri": 159,
+        "disk": 159,
+        "help": 159,
+        "thank": 153,
+        "applic": 143,
+        "look": 141,
+        "time": 140,
+        "im": 139,
+        "set": 130
+      }
+    },
+    "24": {
+      "sample_count": 771,
+      "avg_length": 116.0402075226978,
+      "std_length": 77.38070818646032,
+      "top_words": {
+        "movi": 1811,
+        "film": 1255,
+        "one": 775,
+        "like": 718,
+        "watch": 463,
+        "get": 441,
+        "make": 440,
+        "bad": 415,
+        "time": 408,
+        "charact": 405,
+        "even": 405,
+        "good": 398,
+        "see": 392,
+        "would": 380,
+        "realli": 326,
+        "scene": 321,
+        "stori": 311,
+        "go": 306,
+        "look": 303,
+        "could": 295,
+        "dont": 294,
+        "think": 286,
+        "thing": 285,
+        "act": 280,
+        "end": 280,
+        "peopl": 277,
+        "show": 275,
+        "first": 275,
+        "tri": 249,
+        "say": 248
+      }
+    },
+    "14": {
+      "sample_count": 761,
+      "avg_length": 123.9802890932983,
+      "std_length": 357.68694918792403,
+      "top_words": {
+        "space": 869,
+        "would": 598,
+        "launch": 471,
+        "use": 462,
+        "one": 439,
+        "orbit": 429,
+        "like": 371,
+        "system": 352,
+        "earth": 317,
+        "satellit": 298,
+        "time": 297,
+        "year": 292,
+        "get": 288,
+        "us": 280,
+        "also": 271,
+        "mission": 263,
+        "could": 256,
+        "shuttl": 245,
+        "new": 236,
+        "planet": 235,
+        "moon": 231,
+        "program": 229,
+        "nasa": 224,
+        "solar": 217,
+        "much": 214,
+        "make": 209,
+        "cost": 207,
+        "data": 202,
+        "1": 201,
+        "first": 200
+      }
+    },
+    "18": {
+      "sample_count": 765,
+      "avg_length": 143.8549019607843,
+      "std_length": 357.89468070365444,
+      "top_words": {
+        "q": 838,
+        "peopl": 834,
+        "would": 810,
+        "think": 743,
+        "presid": 737,
+        "go": 653,
+        "dont": 573,
+        "one": 553,
+        "mr": 525,
+        "know": 519,
+        "make": 457,
+        "get": 456,
+        "like": 442,
+        "govern": 438,
+        "state": 433,
+        "work": 419,
+        "say": 414,
+        "us": 411,
+        "well": 409,
+        "right": 381,
+        "want": 365,
+        "time": 360,
+        "stephanopoulo": 357,
+        "use": 347,
+        "said": 331,
+        "drug": 301,
+        "myer": 300,
+        "ms": 298,
+        "thing": 294,
+        "believ": 291
+      }
+    },
+    "23": {
+      "sample_count": 787,
+      "avg_length": 26.278271918678527,
+      "std_length": 6.768645333941117,
+      "top_words": {
+        "39": 225,
+        "said": 194,
+        "us": 178,
+        "iraq": 154,
+        "reuter": 135,
+        "kill": 132,
+        "ap": 112,
+        "afp": 104,
+        "presid": 100,
+        "new": 95,
+        "offici": 95,
+        "leader": 91,
+        "minist": 88,
+        "say": 85,
+        "attack": 85,
+        "elect": 83,
+        "bomb": 81,
+        "report": 76,
+        "two": 74,
+        "palestinian": 71,
+        "peopl": 70,
+        "govern": 70,
+        "state": 70,
+        "forc": 66,
+        "un": 66,
+        "monday": 66,
+        "bush": 66,
+        "countri": 65,
+        "polic": 63,
+        "secur": 62
+      }
+    },
+    "12": {
+      "sample_count": 759,
+      "avg_length": 78.32147562582345,
+      "std_length": 326.35560912897415,
+      "top_words": {
+        "use": 765,
+        "wire": 552,
+        "one": 480,
+        "would": 337,
+        "ground": 326,
+        "get": 287,
+        "circuit": 265,
+        "like": 262,
+        "dont": 238,
+        "power": 234,
+        "need": 232,
+        "work": 231,
+        "know": 210,
+        "time": 209,
+        "connect": 195,
+        "also": 194,
+        "make": 176,
+        "want": 171,
+        "current": 161,
+        "may": 160,
+        "good": 155,
+        "copi": 154,
+        "could": 153,
+        "outlet": 151,
+        "run": 149,
+        "anyon": 148,
+        "two": 145,
+        "look": 143,
+        "thing": 141,
+        "im": 139
+      }
+    },
+    "3": {
+      "sample_count": 765,
+      "avg_length": 65.73725490196078,
+      "std_length": 118.12707342018332,
+      "top_words": {
+        "drive": 545,
+        "use": 542,
+        "one": 354,
+        "card": 345,
+        "would": 307,
+        "get": 296,
+        "control": 248,
+        "system": 244,
+        "problem": 235,
+        "work": 234,
+        "know": 232,
+        "scsi": 221,
+        "im": 208,
+        "thank": 203,
+        "like": 195,
+        "ide": 188,
+        "set": 185,
+        "help": 179,
+        "need": 175,
+        "1": 173,
+        "time": 169,
+        "run": 166,
+        "monitor": 165,
+        "2": 162,
+        "bu": 160,
+        "also": 160,
+        "pc": 159,
+        "dont": 159,
+        "port": 159,
+        "driver": 152
+      }
+    },
+    "16": {
+      "sample_count": 758,
+      "avg_length": 110.03034300791556,
+      "std_length": 263.0967304635714,
+      "top_words": {
+        "gun": 818,
+        "would": 688,
+        "one": 461,
+        "sheet": 449,
+        "peopl": 441,
+        "use": 433,
+        "firearm": 416,
+        "fire": 376,
+        "law": 368,
+        "weapon": 356,
+        "state": 353,
+        "like": 327,
+        "file": 312,
+        "dont": 310,
+        "get": 303,
+        "right": 298,
+        "time": 266,
+        "think": 254,
+        "make": 241,
+        "say": 238,
+        "control": 238,
+        "govern": 235,
+        "fbi": 234,
+        "know": 229,
+        "could": 228,
+        "well": 226,
+        "crime": 226,
+        "go": 209,
+        "handgun": 197,
+        "two": 194
+      }
+    },
+    "9": {
+      "sample_count": 755,
+      "avg_length": 73.07152317880795,
+      "std_length": 98.99008002844296,
+      "top_words": {
+        "game": 499,
+        "year": 454,
+        "1": 444,
+        "0": 352,
+        "team": 323,
+        "would": 313,
+        "think": 296,
+        "player": 294,
+        "one": 293,
+        "3": 279,
+        "hit": 270,
+        "dont": 255,
+        "2": 253,
+        "get": 247,
+        "last": 231,
+        "time": 225,
+        "run": 216,
+        "pitch": 216,
+        "go": 212,
+        "like": 208,
+        "good": 206,
+        "basebal": 206,
+        "well": 204,
+        "play": 193,
+        "know": 179,
+        "pitcher": 179,
+        "better": 174,
+        "win": 171,
+        "could": 168,
+        "leagu": 159
+      }
+    },
+    "15": {
+      "sample_count": 771,
+      "avg_length": 131.3865110246433,
+      "std_length": 199.75350835017437,
+      "top_words": {
+        "god": 1356,
+        "would": 806,
+        "one": 804,
+        "christian": 763,
+        "peopl": 544,
+        "say": 527,
+        "know": 521,
+        "believ": 512,
+        "jesu": 472,
+        "church": 457,
+        "think": 454,
+        "us": 423,
+        "dont": 406,
+        "christ": 403,
+        "sin": 387,
+        "like": 386,
+        "homosexu": 381,
+        "time": 375,
+        "also": 358,
+        "thing": 335,
+        "may": 332,
+        "faith": 332,
+        "see": 330,
+        "mean": 320,
+        "bibl": 315,
+        "make": 312,
+        "word": 304,
+        "question": 303,
+        "come": 302,
+        "love": 302
+      }
+    }
+  },
+  "oov_analysis": {
+    "total_words": 1543571,
+    "oov_words": 554404,
+    "oov_ratio": 0.3591697434066849,
+    "unique_oov": 95083,
+    "top_oov": [
+      [
+        "peopl",
+        5137
+      ],
+      [
+        "dont",
+        4917
+      ],
+      [
+        "movi",
+        2586
+      ],
+      [
+        "believ",
+        2320
+      ],
+      [
+        "includ",
+        2176
+      ],
+      [
+        "realli",
+        2165
+      ],
+      [
+        "anyon",
+        1985
+      ],
+      [
+        "someth",
+        1980
+      ],
+      [
+        "gener",
+        1912
+      ],
+      [
+        "sinc",
+        1908
+      ],
+      [
+        "imag",
+        1898
+      ],
+      [
+        "anoth",
+        1655
+      ],
+      [
+        "ive",
+        1614
+      ],
+      [
+        "cant",
+        1482
+      ],
+      [
+        "didnt",
+        1457
+      ],
+      [
+        "possibl",
+        1443
+      ],
+      [
+        "doesnt",
+        1439
+      ],
+      [
+        "littl",
+        1434
+      ],
+      [
+        "maxaxaxaxaxaxaxaxaxaxaxaxaxaxax",
+        1430
+      ],
+      [
+        "comput",
+        1375
+      ],
+      [
+        "probabl",
+        1373
+      ],
+      [
+        "everi",
+        1371
+      ],
+      [
+        "howev",
+        1351
+      ],
+      [
+        "softwar",
+        1344
+      ],
+      [
+        "someon",
+        1343
+      ],
+      [
+        "anyth",
+        1265
+      ],
+      [
+        "cours",
+        1240
+      ],
+      [
+        "provid",
+        1229
+      ],
+      [
+        "univers",
+        1200
+      ],
+      [
+        "exampl",
+        1151
+      ],
+      [
+        "consid",
+        1133
+      ],
+      [
+        "issu",
+        1132
+      ],
+      [
+        "sourc",
+        1125
+      ],
+      [
+        "requir",
+        1106
+      ],
+      [
+        "noth",
+        1086
+      ],
+      [
+        "sever",
+        1080
+      ],
+      [
+        "stori",
+        1048
+      ],
+      [
+        "caus",
+        1048
+      ],
+      [
+        "presid",
+        1021
+      ],
+      [
+        "applic",
+        1015
+      ],
+      [
+        "jesu",
+        983
+      ],
+      [
+        "els",
+        955
+      ],
+      [
+        "alway",
+        948
+      ],
+      [
+        "isnt",
+        940
+      ],
+      [
+        "complet",
+        939
+      ],
+      [
+        "articl",
+        927
+      ],
+      [
+        "respons",
+        926
+      ],
+      [
+        "abl",
+        914
+      ],
+      [
+        "messag",
+        912
+      ],
+      [
+        "charact",
+        903
+      ]
+    ]
+  },
+  "augmentation_analysis": {
+    "sample_counts": {
+      "original": 11456,
+      "augmented": 8407
+    },
+    "length_comparison": {
+      "original": {
+        "mean": 96.31468226256983,
+        "median": 39.0,
+        "std": 309.3307972443362
+      },
+      "augmented": {
+        "mean": 101.04829308909243,
+        "median": 44.0,
+        "std": 304.6208785865969
+      }
+    },
+    "vocabulary_comparison": {
+      "original_vocab_size": 82919,
+      "augmented_vocab_size": 74074,
+      "shared_vocab_size": 54599,
+      "unique_to_original": 28320,
+      "unique_to_augmented": 19475
+    }
+  },
+  "similarity_analysis": {
+    "within_class": [
+      {
+        "class": 0,
+        "avg_similarity": 0.8748893562419595,
+        "std_similarity": 0.03741719880494711
+      },
+      {
+        "class": 1,
+        "avg_similarity": 0.8623892651910263,
+        "std_similarity": 0.04772560502035465
+      },
+      {
+        "class": 2,
+        "avg_similarity": 0.8768893184177355,
+        "std_similarity": 0.04864556418081943
+      },
+      {
+        "class": 3,
+        "avg_similarity": 0.8731254186462825,
+        "std_similarity": 0.04157460031464119
+      },
+      {
+        "class": 4,
+        "avg_similarity": 0.8659291817278362,
+        "std_similarity": 0.0412168205698631
+      },
+      {
+        "class": 5,
+        "avg_similarity": 0.8973596481860645,
+        "std_similarity": 0.03164679230895849
+      },
+      {
+        "class": 6,
+        "avg_similarity": 0.8561313255175363,
+        "std_similarity": 0.0482875333122062
+      },
+      {
+        "class": 7,
+        "avg_similarity": 0.8696807132120244,
+        "std_similarity": 0.04858353486639966
+      },
+      {
+        "class": 8,
+        "avg_similarity": 0.8715856993529117,
+        "std_similarity": 0.04930573682005555
+      },
+      {
+        "class": 9,
+        "avg_similarity": 0.8335828195944185,
+        "std_similarity": 0.0576375655392732
+      },
+      {
+        "class": 10,
+        "avg_similarity": 0.8849016752477527,
+        "std_similarity": 0.04106234612465332
+      },
+      {
+        "class": 11,
+        "avg_similarity": 0.8667571648658137,
+        "std_similarity": 0.04635202969259131
+      },
+      {
+        "class": 12,
+        "avg_similarity": 0.8534169519878432,
+        "std_similarity": 0.04850708322817088
+      },
+      {
+        "class": 13,
+        "avg_similarity": 0.8828258354666191,
+        "std_similarity": 0.04331020176306409
+      },
+      {
+        "class": 14,
+        "avg_similarity": 0.8440618281556195,
+        "std_similarity": 0.07566172210815998
+      },
+      {
+        "class": 15,
+        "avg_similarity": 0.8790320942880174,
+        "std_similarity": 0.0499241436962705
+      },
+      {
+        "class": 16,
+        "avg_similarity": 0.8964583625362774,
+        "std_similarity": 0.03233680645959323
+      },
+      {
+        "class": 17,
+        "avg_similarity": 0.8740306718187845,
+        "std_similarity": 0.05917409184324349
+      },
+      {
+        "class": 18,
+        "avg_similarity": 0.8907519377822376,
+        "std_similarity": 0.03211795278138152
+      },
+      {
+        "class": 19,
+        "avg_similarity": 0.8604252446383363,
+        "std_similarity": 0.07225964408282888
+      },
+      {
+        "class": 20,
+        "avg_similarity": 0.881321394571505,
+        "std_similarity": 0.027400782458860063
+      },
+      {
+        "class": 21,
+        "avg_similarity": 0.8646960934242071,
+        "std_similarity": 0.038532517935922196
+      },
+      {
+        "class": 22,
+        "avg_similarity": 0.8580295746996892,
+        "std_similarity": 0.03841782014013373
+      },
+      {
+        "class": 23,
+        "avg_similarity": 0.8243341091946437,
+        "std_similarity": 0.0656588250212632
+      },
+      {
+        "class": 24,
+        "avg_similarity": 0.8740578814206266,
+        "std_similarity": 0.10673521330060756
+      },
+      {
+        "class": 25,
+        "avg_similarity": 0.9137112613332242,
+        "std_similarity": 0.03299728716912583
+      }
+    ],
+    "between_class": [
+      {
+        "class_pair": "0-1",
+        "avg_similarity": 0.8440367970427022,
+        "std_similarity": 0.04930796957756362
+      },
+      {
+        "class_pair": "0-2",
+        "avg_similarity": 0.8521469167967799,
+        "std_similarity": 0.04631320835349111
+      },
+      {
+        "class_pair": "0-3",
+        "avg_similarity": 0.8467345806986535,
+        "std_similarity": 0.045607630085414574
+      },
+      {
+        "class_pair": "0-4",
+        "avg_similarity": 0.8425580744360559,
+        "std_similarity": 0.04500534376327032
+      },
+      {
+        "class_pair": "0-5",
+        "avg_similarity": 0.8440334693323762,
+        "std_similarity": 0.045288557766078784
+      },
+      {
+        "class_pair": "0-6",
+        "avg_similarity": 0.84117297012909,
+        "std_similarity": 0.04839853964668411
+      },
+      {
+        "class_pair": "0-7",
+        "avg_similarity": 0.8502454268753203,
+        "std_similarity": 0.04354936831980624
+      },
+      {
+        "class_pair": "0-8",
+        "avg_similarity": 0.8589093597289715,
+        "std_similarity": 0.043613036580098866
+      },
+      {
+        "class_pair": "0-9",
+        "avg_similarity": 0.8397658019586255,
+        "std_similarity": 0.05477631522105931
+      },
+      {
+        "class_pair": "0-10",
+        "avg_similarity": 0.86498375281414,
+        "std_similarity": 0.04064972524714465
+      },
+      {
+        "class_pair": "0-11",
+        "avg_similarity": 0.8644922286054155,
+        "std_similarity": 0.045518174857023794
+      },
+      {
+        "class_pair": "0-12",
+        "avg_similarity": 0.8412391120265144,
+        "std_similarity": 0.04900826527842525
+      },
+      {
+        "class_pair": "0-13",
+        "avg_similarity": 0.8675029578797009,
+        "std_similarity": 0.0430030670172361
+      },
+      {
+        "class_pair": "0-14",
+        "avg_similarity": 0.8511337766420304,
+        "std_similarity": 0.06316758131398191
+      },
+      {
+        "class_pair": "0-15",
+        "avg_similarity": 0.871136320094264,
+        "std_similarity": 0.04620630524578512
+      },
+      {
+        "class_pair": "0-16",
+        "avg_similarity": 0.8746000576885604,
+        "std_similarity": 0.03634066602012365
+      },
+      {
+        "class_pair": "0-17",
+        "avg_similarity": 0.8612273841858824,
+        "std_similarity": 0.05053575086146234
+      },
+      {
+        "class_pair": "0-18",
+        "avg_similarity": 0.8755655414783927,
+        "std_similarity": 0.0395737849141156
+      },
+      {
+        "class_pair": "0-19",
+        "avg_similarity": 0.8640582615784,
+        "std_similarity": 0.0549762880589312
+      },
+      {
+        "class_pair": "0-20",
+        "avg_similarity": 0.8465702633978606,
+        "std_similarity": 0.03696261513957758
+      },
+      {
+        "class_pair": "0-21",
+        "avg_similarity": 0.8419595057287252,
+        "std_similarity": 0.04594272811751857
+      },
+      {
+        "class_pair": "0-22",
+        "avg_similarity": 0.8390057053264658,
+        "std_similarity": 0.04365706451710472
+      },
+      {
+        "class_pair": "0-23",
+        "avg_similarity": 0.8213908334341095,
+        "std_similarity": 0.05885007930652408
+      },
+      {
+        "class_pair": "0-24",
+        "avg_similarity": 0.8522944538938219,
+        "std_similarity": 0.07756926134730754
+      },
+      {
+        "class_pair": "0-25",
+        "avg_similarity": 0.8649533811217099,
+        "std_similarity": 0.042019235603332164
+      },
+      {
+        "class_pair": "1-2",
+        "avg_similarity": 0.8683318829686334,
+        "std_similarity": 0.04750642278728005
+      },
+      {
+        "class_pair": "1-3",
+        "avg_similarity": 0.866403197686001,
+        "std_similarity": 0.04410271142813162
+      },
+      {
+        "class_pair": "1-4",
+        "avg_similarity": 0.863428469764807,
+        "std_similarity": 0.04426219420748739
+      },
+      {
+        "class_pair": "1-5",
+        "avg_similarity": 0.8740251839618914,
+        "std_similarity": 0.042007731984989194
+      },
+      {
+        "class_pair": "1-6",
+        "avg_similarity": 0.8507798866077244,
+        "std_similarity": 0.04859649341197571
+      },
+      {
+        "class_pair": "1-7",
+        "avg_similarity": 0.8513168938022462,
+        "std_similarity": 0.04670914447507042
+      },
+      {
+        "class_pair": "1-8",
+        "avg_similarity": 0.8484549537785913,
+        "std_similarity": 0.04963626129905336
+      },
+      {
+        "class_pair": "1-9",
+        "avg_similarity": 0.8262924821645548,
+        "std_similarity": 0.05968721151926501
+      },
+      {
+        "class_pair": "1-10",
+        "avg_similarity": 0.8505668512310667,
+        "std_similarity": 0.04479956827608927
+      },
+      {
+        "class_pair": "1-11",
+        "avg_similarity": 0.8571577533723655,
+        "std_similarity": 0.049866875932614484
+      },
+      {
+        "class_pair": "1-12",
+        "avg_similarity": 0.8502148803485748,
+        "std_similarity": 0.05055766422002098
+      },
+      {
+        "class_pair": "1-13",
+        "avg_similarity": 0.8557466350493265,
+        "std_similarity": 0.04663834429116917
+      },
+      {
+        "class_pair": "1-14",
+        "avg_similarity": 0.8430520884192491,
+        "std_similarity": 0.06528417358591326
+      },
+      {
+        "class_pair": "1-15",
+        "avg_similarity": 0.8472429214450355,
+        "std_similarity": 0.05176126071464609
+      },
+      {
+        "class_pair": "1-16",
+        "avg_similarity": 0.8640616721283177,
+        "std_similarity": 0.0429004095963279
+      },
+      {
+        "class_pair": "1-17",
+        "avg_similarity": 0.8420461358547375,
+        "std_similarity": 0.05471693574731152
+      },
+      {
+        "class_pair": "1-18",
+        "avg_similarity": 0.8563709270090024,
+        "std_similarity": 0.047620091517242204
+      },
+      {
+        "class_pair": "1-19",
+        "avg_similarity": 0.8389213730272524,
+        "std_similarity": 0.06017303094018543
+      },
+      {
+        "class_pair": "1-20",
+        "avg_similarity": 0.8455991945535385,
+        "std_similarity": 0.036659214149736295
+      },
+      {
+        "class_pair": "1-21",
+        "avg_similarity": 0.8579546234264629,
+        "std_similarity": 0.041082757619963765
+      },
+      {
+        "class_pair": "1-22",
+        "avg_similarity": 0.8265991705918242,
+        "std_similarity": 0.04826055508174118
+      },
+      {
+        "class_pair": "1-23",
+        "avg_similarity": 0.8108103360986099,
+        "std_similarity": 0.06209355508142998
+      },
+      {
+        "class_pair": "1-24",
+        "avg_similarity": 0.8427607844564392,
+        "std_similarity": 0.0789490639917361
+      },
+      {
+        "class_pair": "1-25",
+        "avg_similarity": 0.8560090734809946,
+        "std_similarity": 0.04323721436714448
+      },
+      {
+        "class_pair": "2-3",
+        "avg_similarity": 0.8744731125181053,
+        "std_similarity": 0.043350927698259746
+      },
+      {
+        "class_pair": "2-4",
+        "avg_similarity": 0.8717884889240541,
+        "std_similarity": 0.044762318103815146
+      },
+      {
+        "class_pair": "2-5",
+        "avg_similarity": 0.8840603339768331,
+        "std_similarity": 0.040454057336666245
+      },
+      {
+        "class_pair": "2-6",
+        "avg_similarity": 0.856960815372492,
+        "std_similarity": 0.053336451383064434
+      },
+      {
+        "class_pair": "2-7",
+        "avg_similarity": 0.8560329607215227,
+        "std_similarity": 0.04780565650583247
+      },
+      {
+        "class_pair": "2-8",
+        "avg_similarity": 0.8561193454403843,
+        "std_similarity": 0.049673507498631066
+      },
+      {
+        "class_pair": "2-9",
+        "avg_similarity": 0.8307407383196863,
+        "std_similarity": 0.06074897359440343
+      },
+      {
+        "class_pair": "2-10",
+        "avg_similarity": 0.8583352632567637,
+        "std_similarity": 0.0430667113034929
+      },
+      {
+        "class_pair": "2-11",
+        "avg_similarity": 0.8656674126145407,
+        "std_similarity": 0.04951880490711625
+      },
+      {
+        "class_pair": "2-12",
+        "avg_similarity": 0.8559625960774625,
+        "std_similarity": 0.049179448738332306
+      },
+      {
+        "class_pair": "2-13",
+        "avg_similarity": 0.8652061633809781,
+        "std_similarity": 0.043359626672507326
+      },
+      {
+        "class_pair": "2-14",
+        "avg_similarity": 0.849077878953483,
+        "std_similarity": 0.06746544919666735
+      },
+      {
+        "class_pair": "2-15",
+        "avg_similarity": 0.8549537964923992,
+        "std_similarity": 0.044799234670606716
+      },
+      {
+        "class_pair": "2-16",
+        "avg_similarity": 0.8725251068251186,
+        "std_similarity": 0.04049520540594185
+      },
+      {
+        "class_pair": "2-17",
+        "avg_similarity": 0.8520298392670024,
+        "std_similarity": 0.05006738709199703
+      },
+      {
+        "class_pair": "2-18",
+        "avg_similarity": 0.865180205902227,
+        "std_similarity": 0.04174540487101273
+      },
+      {
+        "class_pair": "2-19",
+        "avg_similarity": 0.8480445275723972,
+        "std_similarity": 0.057161598679774966
+      },
+      {
+        "class_pair": "2-20",
+        "avg_similarity": 0.8479595893236289,
+        "std_similarity": 0.041384886901894964
+      },
+      {
+        "class_pair": "2-21",
+        "avg_similarity": 0.859359729272274,
+        "std_similarity": 0.0451520130751396
+      },
+      {
+        "class_pair": "2-22",
+        "avg_similarity": 0.829433602809723,
+        "std_similarity": 0.04994712233699822
+      },
+      {
+        "class_pair": "2-23",
+        "avg_similarity": 0.8136328799831677,
+        "std_similarity": 0.06457908218964797
+      },
+      {
+        "class_pair": "2-24",
+        "avg_similarity": 0.8486231076311728,
+        "std_similarity": 0.08075313100264002
+      },
+      {
+        "class_pair": "2-25",
+        "avg_similarity": 0.8642866124507853,
+        "std_similarity": 0.03995193956873383
+      },
+      {
+        "class_pair": "3-4",
+        "avg_similarity": 0.8719157572287981,
+        "std_similarity": 0.039514597779513196
+      },
+      {
+        "class_pair": "3-5",
+        "avg_similarity": 0.8819130566050647,
+        "std_similarity": 0.03722156300745909
+      },
+      {
+        "class_pair": "3-6",
+        "avg_similarity": 0.8504363990806028,
+        "std_similarity": 0.04986891976234591
+      },
+      {
+        "class_pair": "3-7",
+        "avg_similarity": 0.8556448326159608,
+        "std_similarity": 0.04388991085583715
+      },
+      {
+        "class_pair": "3-8",
+        "avg_similarity": 0.850341223231635,
+        "std_similarity": 0.04872147874622692
+      },
+      {
+        "class_pair": "3-9",
+        "avg_similarity": 0.8225719478122321,
+        "std_similarity": 0.05803210420117874
+      },
+      {
+        "class_pair": "3-10",
+        "avg_similarity": 0.8521503078608327,
+        "std_similarity": 0.04371327637075344
+      },
+      {
+        "class_pair": "3-11",
+        "avg_similarity": 0.8605394681932748,
+        "std_similarity": 0.04927869321592775
+      },
+      {
+        "class_pair": "3-12",
+        "avg_similarity": 0.8607732282951832,
+        "std_similarity": 0.04686044693826943
+      },
+      {
+        "class_pair": "3-13",
+        "avg_similarity": 0.8593561426418572,
+        "std_similarity": 0.04725257281709139
+      },
+      {
+        "class_pair": "3-14",
+        "avg_similarity": 0.8474302999673722,
+        "std_similarity": 0.06324729654817257
+      },
+      {
+        "class_pair": "3-15",
+        "avg_similarity": 0.85414794143434,
+        "std_similarity": 0.04884002338800828
+      },
+      {
+        "class_pair": "3-16",
+        "avg_similarity": 0.8657671905603636,
+        "std_similarity": 0.043250240127101665
+      },
+      {
+        "class_pair": "3-17",
+        "avg_similarity": 0.8465392283351539,
+        "std_similarity": 0.053097057653206
+      },
+      {
+        "class_pair": "3-18",
+        "avg_similarity": 0.860616177703749,
+        "std_similarity": 0.04371914938585507
+      },
+      {
+        "class_pair": "3-19",
+        "avg_similarity": 0.8421523028743287,
+        "std_similarity": 0.05683065383437856
+      },
+      {
+        "class_pair": "3-20",
+        "avg_similarity": 0.8453232836057409,
+        "std_similarity": 0.03778819763588155
+      },
+      {
+        "class_pair": "3-21",
+        "avg_similarity": 0.8574828219166212,
+        "std_similarity": 0.03981767088432136
+      },
+      {
+        "class_pair": "3-22",
+        "avg_similarity": 0.8215123820492087,
+        "std_similarity": 0.04528137970288943
+      },
+      {
+        "class_pair": "3-23",
+        "avg_similarity": 0.8108219473008933,
+        "std_similarity": 0.05910399974195955
+      },
+      {
+        "class_pair": "3-24",
+        "avg_similarity": 0.8470747946427606,
+        "std_similarity": 0.07535957975162429
+      },
+      {
+        "class_pair": "3-25",
+        "avg_similarity": 0.8591953366104779,
+        "std_similarity": 0.045765954856919706
+      },
+      {
+        "class_pair": "4-5",
+        "avg_similarity": 0.8803239653543632,
+        "std_similarity": 0.03705447141527527
+      },
+      {
+        "class_pair": "4-6",
+        "avg_similarity": 0.849026872831174,
+        "std_similarity": 0.05007104555541899
+      },
+      {
+        "class_pair": "4-7",
+        "avg_similarity": 0.8531848140448326,
+        "std_similarity": 0.04588142961719505
+      },
+      {
+        "class_pair": "4-8",
+        "avg_similarity": 0.8482521601494627,
+        "std_similarity": 0.050831212291192626
+      },
+      {
+        "class_pair": "4-9",
+        "avg_similarity": 0.818891555399995,
+        "std_similarity": 0.06143707516008311
+      },
+      {
+        "class_pair": "4-10",
+        "avg_similarity": 0.8493607857984626,
+        "std_similarity": 0.044180855989581456
+      },
+      {
+        "class_pair": "4-11",
+        "avg_similarity": 0.8584590602236734,
+        "std_similarity": 0.05134538924283554
+      },
+      {
+        "class_pair": "4-12",
+        "avg_similarity": 0.8558250143213475,
+        "std_similarity": 0.046631371221830774
+      },
+      {
+        "class_pair": "4-13",
+        "avg_similarity": 0.8561559809152287,
+        "std_similarity": 0.04653199500524267
+      },
+      {
+        "class_pair": "4-14",
+        "avg_similarity": 0.8429345341963971,
+        "std_similarity": 0.06464339713378764
+      },
+      {
+        "class_pair": "4-15",
+        "avg_similarity": 0.849702753430911,
+        "std_similarity": 0.04808805479793018
+      },
+      {
+        "class_pair": "4-16",
+        "avg_similarity": 0.8626676165380568,
+        "std_similarity": 0.04399508444945565
+      },
+      {
+        "class_pair": "4-17",
+        "avg_similarity": 0.844468479406462,
+        "std_similarity": 0.054294126616186024
+      },
+      {
+        "class_pair": "4-18",
+        "avg_similarity": 0.8563343551763246,
+        "std_similarity": 0.04460537215079869
+      },
+      {
+        "class_pair": "4-19",
+        "avg_similarity": 0.839914227002681,
+        "std_similarity": 0.05956944208422861
+      },
+      {
+        "class_pair": "4-20",
+        "avg_similarity": 0.8423112523707905,
+        "std_similarity": 0.03542592635243849
+      },
+      {
+        "class_pair": "4-21",
+        "avg_similarity": 0.8544494675426928,
+        "std_similarity": 0.038178850163014644
+      },
+      {
+        "class_pair": "4-22",
+        "avg_similarity": 0.8192022771679028,
+        "std_similarity": 0.04489084627569609
+      },
+      {
+        "class_pair": "4-23",
+        "avg_similarity": 0.8075090025281422,
+        "std_similarity": 0.06004449913732685
+      },
+      {
+        "class_pair": "4-24",
+        "avg_similarity": 0.8431076256975553,
+        "std_similarity": 0.07698928049637976
+      },
+      {
+        "class_pair": "4-25",
+        "avg_similarity": 0.8566500572374917,
+        "std_similarity": 0.04330641859509475
+      },
+      {
+        "class_pair": "5-6",
+        "avg_similarity": 0.8534786024157606,
+        "std_similarity": 0.04442595229451824
+      },
+      {
+        "class_pair": "5-7",
+        "avg_similarity": 0.8522093149628768,
+        "std_similarity": 0.040101406202591935
+      },
+      {
+        "class_pair": "5-8",
+        "avg_similarity": 0.8482019252358441,
+        "std_similarity": 0.04521292907967047
+      },
+      {
+        "class_pair": "5-9",
+        "avg_similarity": 0.8216890160723629,
+        "std_similarity": 0.05380312835131795
+      },
+      {
+        "class_pair": "5-10",
+        "avg_similarity": 0.850660245631737,
+        "std_similarity": 0.039492028489573026
+      },
+      {
+        "class_pair": "5-11",
+        "avg_similarity": 0.8640548482528642,
+        "std_similarity": 0.04905369235076261
+      },
+      {
+        "class_pair": "5-12",
+        "avg_similarity": 0.8606153146972699,
+        "std_similarity": 0.04511710850307619
+      },
+      {
+        "class_pair": "5-13",
+        "avg_similarity": 0.8590342698683555,
+        "std_similarity": 0.040093724184651396
+      },
+      {
+        "class_pair": "5-14",
+        "avg_similarity": 0.844829196175037,
+        "std_similarity": 0.06598597792865622
+      },
+      {
+        "class_pair": "5-15",
+        "avg_similarity": 0.8505047224250172,
+        "std_similarity": 0.0435183491695712
+      },
+      {
+        "class_pair": "5-16",
+        "avg_similarity": 0.8665900113245653,
+        "std_similarity": 0.03679394166938479
+      },
+      {
+        "class_pair": "5-17",
+        "avg_similarity": 0.84626711136169,
+        "std_similarity": 0.04682777587505496
+      },
+      {
+        "class_pair": "5-18",
+        "avg_similarity": 0.8584869603849388,
+        "std_similarity": 0.040209706409130984
+      },
+      {
+        "class_pair": "5-19",
+        "avg_similarity": 0.841955076411501,
+        "std_similarity": 0.05361935619504156
+      },
+      {
+        "class_pair": "5-20",
+        "avg_similarity": 0.8415324066340953,
+        "std_similarity": 0.03148452961585208
+      },
+      {
+        "class_pair": "5-21",
+        "avg_similarity": 0.8596314922223769,
+        "std_similarity": 0.03345423861425315
+      },
+      {
+        "class_pair": "5-22",
+        "avg_similarity": 0.822086017339976,
+        "std_similarity": 0.04300248018190622
+      },
+      {
+        "class_pair": "5-23",
+        "avg_similarity": 0.8090581125314187,
+        "std_similarity": 0.058559947188780284
+      },
+      {
+        "class_pair": "5-24",
+        "avg_similarity": 0.843191720774104,
+        "std_similarity": 0.07635416357830933
+      },
+      {
+        "class_pair": "5-25",
+        "avg_similarity": 0.857117648472853,
+        "std_similarity": 0.037589681366455886
+      },
+      {
+        "class_pair": "6-7",
+        "avg_similarity": 0.8535608406045571,
+        "std_similarity": 0.049529098179435384
+      },
+      {
+        "class_pair": "6-8",
+        "avg_similarity": 0.8520095746694792,
+        "std_similarity": 0.04793411926052188
+      },
+      {
+        "class_pair": "6-9",
+        "avg_similarity": 0.8318570561977529,
+        "std_similarity": 0.05112363625056199
+      },
+      {
+        "class_pair": "6-10",
+        "avg_similarity": 0.8528989085387736,
+        "std_similarity": 0.0434314788724365
+      },
+      {
+        "class_pair": "6-11",
+        "avg_similarity": 0.8513135753446706,
+        "std_similarity": 0.04684844170346223
+      },
+      {
+        "class_pair": "6-12",
+        "avg_similarity": 0.8408471045989149,
+        "std_similarity": 0.05652190858127982
+      },
+      {
+        "class_pair": "6-13",
+        "avg_similarity": 0.8555449962509686,
+        "std_similarity": 0.04519037066541282
+      },
+      {
+        "class_pair": "6-14",
+        "avg_similarity": 0.8363685270965946,
+        "std_similarity": 0.06989949674745972
+      },
+      {
+        "class_pair": "6-15",
+        "avg_similarity": 0.8429209405202264,
+        "std_similarity": 0.0513830409564039
+      },
+      {
+        "class_pair": "6-16",
+        "avg_similarity": 0.8644245865854671,
+        "std_similarity": 0.04078788832035376
+      },
+      {
+        "class_pair": "6-17",
+        "avg_similarity": 0.8438498897769899,
+        "std_similarity": 0.053047506112448614
+      },
+      {
+        "class_pair": "6-18",
+        "avg_similarity": 0.8519779655385693,
+        "std_similarity": 0.04561202402013351
+      },
+      {
+        "class_pair": "6-19",
+        "avg_similarity": 0.8382179457525795,
+        "std_similarity": 0.05834033580870179
+      },
+      {
+        "class_pair": "6-20",
+        "avg_similarity": 0.8516545652382095,
+        "std_similarity": 0.036603820600645924
+      },
+      {
+        "class_pair": "6-21",
+        "avg_similarity": 0.8556772566077341,
+        "std_similarity": 0.04186548971874826
+      },
+      {
+        "class_pair": "6-22",
+        "avg_similarity": 0.8337875722509496,
+        "std_similarity": 0.04431894854233768
+      },
+      {
+        "class_pair": "6-23",
+        "avg_similarity": 0.8162469802528619,
+        "std_similarity": 0.0641058271016865
+      },
+      {
+        "class_pair": "6-24",
+        "avg_similarity": 0.8392714918177916,
+        "std_similarity": 0.08575476499729132
+      },
+      {
+        "class_pair": "6-25",
+        "avg_similarity": 0.856574384320742,
+        "std_similarity": 0.04595181631011934
+      },
+      {
+        "class_pair": "7-8",
+        "avg_similarity": 0.8672855862658991,
+        "std_similarity": 0.05013475767862751
+      },
+      {
+        "class_pair": "7-9",
+        "avg_similarity": 0.8334545276746494,
+        "std_similarity": 0.0631954985509791
+      },
+      {
+        "class_pair": "7-10",
+        "avg_similarity": 0.8632161310680941,
+        "std_similarity": 0.04293831713391617
+      },
+      {
+        "class_pair": "7-11",
+        "avg_similarity": 0.858269821358508,
+        "std_similarity": 0.04898983819297423
+      },
+      {
+        "class_pair": "7-12",
+        "avg_similarity": 0.8522298429059428,
+        "std_similarity": 0.050178910124490855
+      },
+      {
+        "class_pair": "7-13",
+        "avg_similarity": 0.8641728383742301,
+        "std_similarity": 0.04832798157260767
+      },
+      {
+        "class_pair": "7-14",
+        "avg_similarity": 0.847341072411396,
+        "std_similarity": 0.06612561204666556
+      },
+      {
+        "class_pair": "7-15",
+        "avg_similarity": 0.8582221337429836,
+        "std_similarity": 0.047739242975788417
+      },
+      {
+        "class_pair": "7-16",
+        "avg_similarity": 0.8725108842864974,
+        "std_similarity": 0.04538015349808989
+      },
+      {
+        "class_pair": "7-17",
+        "avg_similarity": 0.8562113147490239,
+        "std_similarity": 0.055766516204763764
+      },
+      {
+        "class_pair": "7-18",
+        "avg_similarity": 0.8671724113953424,
+        "std_similarity": 0.04434626212227892
+      },
+      {
+        "class_pair": "7-19",
+        "avg_similarity": 0.8512512049044942,
+        "std_similarity": 0.06157644006454978
+      },
+      {
+        "class_pair": "7-20",
+        "avg_similarity": 0.851015230872566,
+        "std_similarity": 0.03515269145644272
+      },
+      {
+        "class_pair": "7-21",
+        "avg_similarity": 0.8518742263121996,
+        "std_similarity": 0.04318873582553491
+      },
+      {
+        "class_pair": "7-22",
+        "avg_similarity": 0.8338245916073095,
+        "std_similarity": 0.046432226774958715
+      },
+      {
+        "class_pair": "7-23",
+        "avg_similarity": 0.8153019902345386,
+        "std_similarity": 0.06195817531300257
+      },
+      {
+        "class_pair": "7-24",
+        "avg_similarity": 0.8553656585174232,
+        "std_similarity": 0.08238432010294967
+      },
+      {
+        "class_pair": "7-25",
+        "avg_similarity": 0.8728249708836094,
+        "std_similarity": 0.044416310636236654
+      },
+      {
+        "class_pair": "8-9",
+        "avg_similarity": 0.8405741642476748,
+        "std_similarity": 0.05613727137903474
+      },
+      {
+        "class_pair": "8-10",
+        "avg_similarity": 0.8693565717671159,
+        "std_similarity": 0.041137097753076
+      },
+      {
+        "class_pair": "8-11",
+        "avg_similarity": 0.8618881239440416,
+        "std_similarity": 0.04711319527850671
+      },
+      {
+        "class_pair": "8-12",
+        "avg_similarity": 0.8451580036851536,
+        "std_similarity": 0.054892718956873
+      },
+      {
+        "class_pair": "8-13",
+        "avg_similarity": 0.8686306786284475,
+        "std_similarity": 0.04564841929122066
+      },
+      {
+        "class_pair": "8-14",
+        "avg_similarity": 0.8499339450861876,
+        "std_similarity": 0.06743092367137296
+      },
+      {
+        "class_pair": "8-15",
+        "avg_similarity": 0.8595337834456446,
+        "std_similarity": 0.049556234724212986
+      },
+      {
+        "class_pair": "8-16",
+        "avg_similarity": 0.8765545876747564,
+        "std_similarity": 0.040762048689879794
+      },
+      {
+        "class_pair": "8-17",
+        "avg_similarity": 0.8587905547168236,
+        "std_similarity": 0.05454286254258269
+      },
+      {
+        "class_pair": "8-18",
+        "avg_similarity": 0.8735954449317813,
+        "std_similarity": 0.04165537194690295
+      },
+      {
+        "class_pair": "8-19",
+        "avg_similarity": 0.8562164561417781,
+        "std_similarity": 0.06028534275349675
+      },
+      {
+        "class_pair": "8-20",
+        "avg_similarity": 0.8493954809471006,
+        "std_similarity": 0.03524773973780251
+      },
+      {
+        "class_pair": "8-21",
+        "avg_similarity": 0.8497076874158306,
+        "std_similarity": 0.043664519677383176
+      },
+      {
+        "class_pair": "8-22",
+        "avg_similarity": 0.8420419370351282,
+        "std_similarity": 0.04559323947092255
+      },
+      {
+        "class_pair": "8-23",
+        "avg_similarity": 0.8182478549438262,
+        "std_similarity": 0.06153898145339245
+      },
+      {
+        "class_pair": "8-24",
+        "avg_similarity": 0.8610818492085495,
+        "std_similarity": 0.08436194841504943
+      },
+      {
+        "class_pair": "8-25",
+        "avg_similarity": 0.8762702159945364,
+        "std_similarity": 0.04667243604057886
+      },
+      {
+        "class_pair": "9-10",
+        "avg_similarity": 0.8537842440451388,
+        "std_similarity": 0.05475437558484869
+      },
+      {
+        "class_pair": "9-11",
+        "avg_similarity": 0.8394151503584243,
+        "std_similarity": 0.05553124017105237
+      },
+      {
+        "class_pair": "9-12",
+        "avg_similarity": 0.8125788175670157,
+        "std_similarity": 0.06874451340741147
+      },
+      {
+        "class_pair": "9-13",
+        "avg_similarity": 0.8441342391838821,
+        "std_similarity": 0.05253325125103344
+      },
+      {
+        "class_pair": "9-14",
+        "avg_similarity": 0.8239751597907934,
+        "std_similarity": 0.07767597175447893
+      },
+      {
+        "class_pair": "9-15",
+        "avg_similarity": 0.8320885085892831,
+        "std_similarity": 0.0646700735447166
+      },
+      {
+        "class_pair": "9-16",
+        "avg_similarity": 0.8528755460303352,
+        "std_similarity": 0.047820784788385334
+      },
+      {
+        "class_pair": "9-17",
+        "avg_similarity": 0.8350750657559015,
+        "std_similarity": 0.06459706240891097
+      },
+      {
+        "class_pair": "9-18",
+        "avg_similarity": 0.8461828977902308,
+        "std_similarity": 0.05676278766820856
+      },
+      {
+        "class_pair": "9-19",
+        "avg_similarity": 0.8341907750047708,
+        "std_similarity": 0.07099778879745411
+      },
+      {
+        "class_pair": "9-20",
+        "avg_similarity": 0.8326269303735414,
+        "std_similarity": 0.04129983827256869
+      },
+      {
+        "class_pair": "9-21",
+        "avg_similarity": 0.8313115328919249,
+        "std_similarity": 0.04894492094505572
+      },
+      {
+        "class_pair": "9-22",
+        "avg_similarity": 0.8360343048597784,
+        "std_similarity": 0.05189247036666528
+      },
+      {
+        "class_pair": "9-23",
+        "avg_similarity": 0.8042326490003802,
+        "std_similarity": 0.06866197205771232
+      },
+      {
+        "class_pair": "9-24",
+        "avg_similarity": 0.8301083167879126,
+        "std_similarity": 0.09782490226081661
+      },
+      {
+        "class_pair": "9-25",
+        "avg_similarity": 0.8451321208600258,
+        "std_similarity": 0.058538042938047936
+      },
+      {
+        "class_pair": "10-11",
+        "avg_similarity": 0.8652351841233016,
+        "std_similarity": 0.041885071765851704
+      },
+      {
+        "class_pair": "10-12",
+        "avg_similarity": 0.8456641997942126,
+        "std_similarity": 0.04794089468864974
+      },
+      {
+        "class_pair": "10-13",
+        "avg_similarity": 0.8740548168797794,
+        "std_similarity": 0.040116088199238314
+      },
+      {
+        "class_pair": "10-14",
+        "avg_similarity": 0.8522098239206986,
+        "std_similarity": 0.06685987423615553
+      },
+      {
+        "class_pair": "10-15",
+        "avg_similarity": 0.8655921985119588,
+        "std_similarity": 0.04257118812468444
+      },
+      {
+        "class_pair": "10-16",
+        "avg_similarity": 0.8794470070730859,
+        "std_similarity": 0.03442602367179149
+      },
+      {
+        "class_pair": "10-17",
+        "avg_similarity": 0.867743607136256,
+        "std_similarity": 0.04640415831204463
+      },
+      {
+        "class_pair": "10-18",
+        "avg_similarity": 0.8759051333078388,
+        "std_similarity": 0.03657312222246037
+      },
+      {
+        "class_pair": "10-19",
+        "avg_similarity": 0.8615672455855575,
+        "std_similarity": 0.05256176381427111
+      },
+      {
+        "class_pair": "10-20",
+        "avg_similarity": 0.8555579794142492,
+        "std_similarity": 0.028401718542225157
+      },
+      {
+        "class_pair": "10-21",
+        "avg_similarity": 0.8507698981078039,
+        "std_similarity": 0.04124079392714996
+      },
+      {
+        "class_pair": "10-22",
+        "avg_similarity": 0.8581111854721037,
+        "std_similarity": 0.040292975819720966
+      },
+      {
+        "class_pair": "10-23",
+        "avg_similarity": 0.8269402518671849,
+        "std_similarity": 0.05844260066354265
+      },
+      {
+        "class_pair": "10-24",
+        "avg_similarity": 0.8672287671110123,
+        "std_similarity": 0.08152129401677323
+      },
+      {
+        "class_pair": "10-25",
+        "avg_similarity": 0.8828205908970913,
+        "std_similarity": 0.037005704614240555
+      },
+      {
+        "class_pair": "11-12",
+        "avg_similarity": 0.8512280056742512,
+        "std_similarity": 0.05483847530413991
+      },
+      {
+        "class_pair": "11-13",
+        "avg_similarity": 0.8715740555269876,
+        "std_similarity": 0.0436295467585025
+      },
+      {
+        "class_pair": "11-14",
+        "avg_similarity": 0.8530466210940422,
+        "std_similarity": 0.06775691662374363
+      },
+      {
+        "class_pair": "11-15",
+        "avg_similarity": 0.8657437321940749,
+        "std_similarity": 0.049009263892523094
+      },
+      {
+        "class_pair": "11-16",
+        "avg_similarity": 0.8818635709698909,
+        "std_similarity": 0.03707589556608974
+      },
+      {
+        "class_pair": "11-17",
+        "avg_similarity": 0.8643502877791996,
+        "std_similarity": 0.052428151226527525
+      },
+      {
+        "class_pair": "11-18",
+        "avg_similarity": 0.8760315664330934,
+        "std_similarity": 0.04140251615991642
+      },
+      {
+        "class_pair": "11-19",
+        "avg_similarity": 0.8604466139991522,
+        "std_similarity": 0.05837179249966586
+      },
+      {
+        "class_pair": "11-20",
+        "avg_similarity": 0.8526865707253296,
+        "std_similarity": 0.034182664006594726
+      },
+      {
+        "class_pair": "11-21",
+        "avg_similarity": 0.8541164258138262,
+        "std_similarity": 0.04216000894492544
+      },
+      {
+        "class_pair": "11-22",
+        "avg_similarity": 0.8340973282687479,
+        "std_similarity": 0.04543957907022161
+      },
+      {
+        "class_pair": "11-23",
+        "avg_similarity": 0.8202852656801737,
+        "std_similarity": 0.06343787521935511
+      },
+      {
+        "class_pair": "11-24",
+        "avg_similarity": 0.8542490986492549,
+        "std_similarity": 0.08510740639804705
+      },
+      {
+        "class_pair": "11-25",
+        "avg_similarity": 0.8698164101100777,
+        "std_similarity": 0.043595016929081194
+      },
+      {
+        "class_pair": "12-13",
+        "avg_similarity": 0.8541541151634581,
+        "std_similarity": 0.0508212019083217
+      },
+      {
+        "class_pair": "12-14",
+        "avg_similarity": 0.840086745981238,
+        "std_similarity": 0.06448781705544616
+      },
+      {
+        "class_pair": "12-15",
+        "avg_similarity": 0.8510908108377326,
+        "std_similarity": 0.048727273550703304
+      },
+      {
+        "class_pair": "12-16",
+        "avg_similarity": 0.8608024493781644,
+        "std_similarity": 0.04882224567561069
+      },
+      {
+        "class_pair": "12-17",
+        "avg_similarity": 0.8448878621223296,
+        "std_similarity": 0.05594823393786543
+      },
+      {
+        "class_pair": "12-18",
+        "avg_similarity": 0.855422044646138,
+        "std_similarity": 0.04645004464102444
+      },
+      {
+        "class_pair": "12-19",
+        "avg_similarity": 0.8374207161898349,
+        "std_similarity": 0.0628699372515151
+      },
+      {
+        "class_pair": "12-20",
+        "avg_similarity": 0.8373600807550513,
+        "std_similarity": 0.040418499536243935
+      },
+      {
+        "class_pair": "12-21",
+        "avg_similarity": 0.8453673535350662,
+        "std_similarity": 0.04604028774820455
+      },
+      {
+        "class_pair": "12-22",
+        "avg_similarity": 0.8121749862968431,
+        "std_similarity": 0.05055037807398499
+      },
+      {
+        "class_pair": "12-23",
+        "avg_similarity": 0.8048610677887309,
+        "std_similarity": 0.06103497079233688
+      },
+      {
+        "class_pair": "12-24",
+        "avg_similarity": 0.8410299217367444,
+        "std_similarity": 0.07461575800407469
+      },
+      {
+        "class_pair": "12-25",
+        "avg_similarity": 0.8544034309021439,
+        "std_similarity": 0.04476994007620994
+      },
+      {
+        "class_pair": "13-14",
+        "avg_similarity": 0.8574483008485878,
+        "std_similarity": 0.06784705996870115
+      },
+      {
+        "class_pair": "13-15",
+        "avg_similarity": 0.8753035041967713,
+        "std_similarity": 0.04667870647726743
+      },
+      {
+        "class_pair": "13-16",
+        "avg_similarity": 0.8884398339839888,
+        "std_similarity": 0.035436464045493714
+      },
+      {
+        "class_pair": "13-17",
+        "avg_similarity": 0.8752214861440721,
+        "std_similarity": 0.04964956147516223
+      },
+      {
+        "class_pair": "13-18",
+        "avg_similarity": 0.8833388425011466,
+        "std_similarity": 0.03725580960281037
+      },
+      {
+        "class_pair": "13-19",
+        "avg_similarity": 0.8680225098483562,
+        "std_similarity": 0.05550550272268778
+      },
+      {
+        "class_pair": "13-20",
+        "avg_similarity": 0.8574546121487159,
+        "std_similarity": 0.03205843789486956
+      },
+      {
+        "class_pair": "13-21",
+        "avg_similarity": 0.856476176543993,
+        "std_similarity": 0.041780349071554465
+      },
+      {
+        "class_pair": "13-22",
+        "avg_similarity": 0.8399667756724264,
+        "std_similarity": 0.042811510338638996
+      },
+      {
+        "class_pair": "13-23",
+        "avg_similarity": 0.8272059299915642,
+        "std_similarity": 0.062258999654120704
+      },
+      {
+        "class_pair": "13-24",
+        "avg_similarity": 0.8669638884975194,
+        "std_similarity": 0.08477077534583932
+      },
+      {
+        "class_pair": "13-25",
+        "avg_similarity": 0.8865795426658226,
+        "std_similarity": 0.04081120175391432
+      },
+      {
+        "class_pair": "14-15",
+        "avg_similarity": 0.8526607509636862,
+        "std_similarity": 0.0666343687183343
+      },
+      {
+        "class_pair": "14-16",
+        "avg_similarity": 0.8649622522799096,
+        "std_similarity": 0.06570670072363337
+      },
+      {
+        "class_pair": "14-17",
+        "avg_similarity": 0.8470118370669203,
+        "std_similarity": 0.07242900571148048
+      },
+      {
+        "class_pair": "14-18",
+        "avg_similarity": 0.8625181002487052,
+        "std_similarity": 0.06456375053036385
+      },
+      {
+        "class_pair": "14-19",
+        "avg_similarity": 0.8438314735892194,
+        "std_similarity": 0.07511245326027874
+      },
+      {
+        "class_pair": "14-20",
+        "avg_similarity": 0.8414445252151104,
+        "std_similarity": 0.057152277034956574
+      },
+      {
+        "class_pair": "14-21",
+        "avg_similarity": 0.8421001236201435,
+        "std_similarity": 0.06252070283008708
+      },
+      {
+        "class_pair": "14-22",
+        "avg_similarity": 0.8232964421105063,
+        "std_similarity": 0.06849322525860305
+      },
+      {
+        "class_pair": "14-23",
+        "avg_similarity": 0.8083189927022302,
+        "std_similarity": 0.07585550157890163
+      },
+      {
+        "class_pair": "14-24",
+        "avg_similarity": 0.8469282406999664,
+        "std_similarity": 0.09128099306028094
+      },
+      {
+        "class_pair": "14-25",
+        "avg_similarity": 0.8598942371188864,
+        "std_similarity": 0.06635830509979476
+      },
+      {
+        "class_pair": "15-16",
+        "avg_similarity": 0.8803135849970621,
+        "std_similarity": 0.042522094436955905
+      },
+      {
+        "class_pair": "15-17",
+        "avg_similarity": 0.8729482904784811,
+        "std_similarity": 0.053861706105698015
+      },
+      {
+        "class_pair": "15-18",
+        "avg_similarity": 0.8800209317159605,
+        "std_similarity": 0.040221204606951895
+      },
+      {
+        "class_pair": "15-19",
+        "avg_similarity": 0.8684617671107887,
+        "std_similarity": 0.06198077747898608
+      },
+      {
+        "class_pair": "15-20",
+        "avg_similarity": 0.8453349802422628,
+        "std_similarity": 0.036684239195599724
+      },
+      {
+        "class_pair": "15-21",
+        "avg_similarity": 0.8421855605259339,
+        "std_similarity": 0.04424737859789403
+      },
+      {
+        "class_pair": "15-22",
+        "avg_similarity": 0.8270206789965528,
+        "std_similarity": 0.046694362911270874
+      },
+      {
+        "class_pair": "15-23",
+        "avg_similarity": 0.8166013671171359,
+        "std_similarity": 0.06016072891906581
+      },
+      {
+        "class_pair": "15-24",
+        "avg_similarity": 0.8604466944351984,
+        "std_similarity": 0.07966019806622526
+      },
+      {
+        "class_pair": "15-25",
+        "avg_similarity": 0.8791799922263892,
+        "std_similarity": 0.039218338443858365
+      },
+      {
+        "class_pair": "16-17",
+        "avg_similarity": 0.8817535256827156,
+        "std_similarity": 0.04504255963686342
+      },
+      {
+        "class_pair": "16-18",
+        "avg_similarity": 0.8947654081393476,
+        "std_similarity": 0.034554883002257626
+      },
+      {
+        "class_pair": "16-19",
+        "avg_similarity": 0.8753336943533438,
+        "std_similarity": 0.051695192839777374
+      },
+      {
+        "class_pair": "16-20",
+        "avg_similarity": 0.8649014711585664,
+        "std_similarity": 0.028289681669480912
+      },
+      {
+        "class_pair": "16-21",
+        "avg_similarity": 0.8653049973213968,
+        "std_similarity": 0.039452598806573966
+      },
+      {
+        "class_pair": "16-22",
+        "avg_similarity": 0.8460476570643674,
+        "std_similarity": 0.04141017682401559
+      },
+      {
+        "class_pair": "16-23",
+        "avg_similarity": 0.8336517490135084,
+        "std_similarity": 0.06213091587399471
+      },
+      {
+        "class_pair": "16-24",
+        "avg_similarity": 0.8703179047028713,
+        "std_similarity": 0.08711834887246604
+      },
+      {
+        "class_pair": "16-25",
+        "avg_similarity": 0.8882066082003338,
+        "std_similarity": 0.039404712396811925
+      },
+      {
+        "class_pair": "17-18",
+        "avg_similarity": 0.8778658257096582,
+        "std_similarity": 0.04538732626745533
+      },
+      {
+        "class_pair": "17-19",
+        "avg_similarity": 0.8651301355955314,
+        "std_similarity": 0.06483438979331349
+      },
+      {
+        "class_pair": "17-20",
+        "avg_similarity": 0.846566983642809,
+        "std_similarity": 0.03829154211990976
+      },
+      {
+        "class_pair": "17-21",
+        "avg_similarity": 0.8413103084959074,
+        "std_similarity": 0.04793096149742088
+      },
+      {
+        "class_pair": "17-22",
+        "avg_similarity": 0.8290569579646128,
+        "std_similarity": 0.046741953586249045
+      },
+      {
+        "class_pair": "17-23",
+        "avg_similarity": 0.8234397428740663,
+        "std_similarity": 0.06370099146435251
+      },
+      {
+        "class_pair": "17-24",
+        "avg_similarity": 0.8596123235670997,
+        "std_similarity": 0.0894957544234776
+      },
+      {
+        "class_pair": "17-25",
+        "avg_similarity": 0.881684273503754,
+        "std_similarity": 0.046632998616074985
+      },
+      {
+        "class_pair": "18-19",
+        "avg_similarity": 0.8735253236345932,
+        "std_similarity": 0.052985992943337994
+      },
+      {
+        "class_pair": "18-20",
+        "avg_similarity": 0.8546294020421794,
+        "std_similarity": 0.03104574872002415
+      },
+      {
+        "class_pair": "18-21",
+        "avg_similarity": 0.8534785611986812,
+        "std_similarity": 0.04343031307027548
+      },
+      {
+        "class_pair": "18-22",
+        "avg_similarity": 0.8395236589448353,
+        "std_similarity": 0.044680939424520894
+      },
+      {
+        "class_pair": "18-23",
+        "avg_similarity": 0.8244008059155357,
+        "std_similarity": 0.061095523630779705
+      },
+      {
+        "class_pair": "18-24",
+        "avg_similarity": 0.8717597843763419,
+        "std_similarity": 0.08199319819809937
+      },
+      {
+        "class_pair": "18-25",
+        "avg_similarity": 0.8876067074364078,
+        "std_similarity": 0.03604169675429754
+      },
+      {
+        "class_pair": "19-20",
+        "avg_similarity": 0.8367027254364056,
+        "std_similarity": 0.04399064541469524
+      },
+      {
+        "class_pair": "19-21",
+        "avg_similarity": 0.8355596605292102,
+        "std_similarity": 0.05164082284790994
+      },
+      {
+        "class_pair": "19-22",
+        "avg_similarity": 0.8254321464553075,
+        "std_similarity": 0.0542630939681431
+      },
+      {
+        "class_pair": "19-23",
+        "avg_similarity": 0.8081810863336771,
+        "std_similarity": 0.0684011720667853
+      },
+      {
+        "class_pair": "19-24",
+        "avg_similarity": 0.8529053672234319,
+        "std_similarity": 0.09407887851579842
+      },
+      {
+        "class_pair": "19-25",
+        "avg_similarity": 0.8729863047439491,
+        "std_similarity": 0.053452981353003366
+      },
+      {
+        "class_pair": "20-21",
+        "avg_similarity": 0.8631991920979949,
+        "std_similarity": 0.03608953396412694
+      },
+      {
+        "class_pair": "20-22",
+        "avg_similarity": 0.8428955657392649,
+        "std_similarity": 0.03479972437233743
+      },
+      {
+        "class_pair": "20-23",
+        "avg_similarity": 0.837337429199381,
+        "std_similarity": 0.05752771890613078
+      },
+      {
+        "class_pair": "20-24",
+        "avg_similarity": 0.8392012346102522,
+        "std_similarity": 0.07539815816454006
+      },
+      {
+        "class_pair": "20-25",
+        "avg_similarity": 0.8529106845810572,
+        "std_similarity": 0.029007343858199454
+      },
+      {
+        "class_pair": "21-22",
+        "avg_similarity": 0.8337853249195346,
+        "std_similarity": 0.0459805252442236
+      },
+      {
+        "class_pair": "21-23",
+        "avg_similarity": 0.8226967715495742,
+        "std_similarity": 0.06392067714675137
+      },
+      {
+        "class_pair": "21-24",
+        "avg_similarity": 0.8383881306058312,
+        "std_similarity": 0.08137236742976241
+      },
+      {
+        "class_pair": "21-25",
+        "avg_similarity": 0.8520519525468767,
+        "std_similarity": 0.042362922316577734
+      },
+      {
+        "class_pair": "22-23",
+        "avg_similarity": 0.8198143806226355,
+        "std_similarity": 0.05703249434030309
+      },
+      {
+        "class_pair": "22-24",
+        "avg_similarity": 0.8316977815753016,
+        "std_similarity": 0.08132196152131924
+      },
+      {
+        "class_pair": "22-25",
+        "avg_similarity": 0.8430308923584071,
+        "std_similarity": 0.04462767763313109
+      },
+      {
+        "class_pair": "23-24",
+        "avg_similarity": 0.8127600805895734,
+        "std_similarity": 0.08567139041164572
+      },
+      {
+        "class_pair": "23-25",
+        "avg_similarity": 0.8234691307645184,
+        "std_similarity": 0.05776779373201261
+      },
+      {
+        "class_pair": "24-25",
+        "avg_similarity": 0.8929285034456542,
+        "std_similarity": 0.08320710440490535
+      }
+    ]
+  }
+}

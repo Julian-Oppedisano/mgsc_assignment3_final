@@ -1,0 +1,22 @@
+{
+  "dataset_stats": {
+    "20newsgroups": {
+      "samples": 18846,
+      "unique_labels": 20,
+      "avg_length": 101.06006579645548
+    },
+    "ag_news": {
+      "samples": 127600,
+      "unique_labels": 4,
+      "avg_length": 25.78047021943574
+    },
+    "imdb": {
+      "samples": 50000,
+      "unique_labels": 2,
+      "avg_length": 119.77346
+    }
+  },
+  "combined_stats": {
+    "total_samples": 16328,
+    "class_distribution": {
+      "20ng_rec.sport.hockey": 

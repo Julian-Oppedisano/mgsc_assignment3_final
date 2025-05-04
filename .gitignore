@@ -1,0 +1,78 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Model checkpoints and large files
+*.pt
+*.bin
+*.onnx
+*.safetensors
+**/model-store/*.mar
+
+# Explicitly exclude large model files
+output/demo/model/model.safetensors
+model_cache/
+output/model_cache/
+
+# Log files
+*.log
+
+# Cache directories
+.cache/
+model_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+!/output/processed_data/*.csv  # Keep processed data for reproducibility
+
+# Large files and directories
+output/models/*
+!output/models/.gitkeep
+output/deployment/*
+!output/deployment/.gitkeep
+output/explanations/*
+!output/explanations/.gitkeep
+output/demo/model/*
+!output/demo/model/.gitkeep
+
+# Allow specific model files for demo
+# Commented out to avoid large files
+# !output/models/distilbert/distilbert-base-uncased_best.pt
+
+# Temporary files
+tmp/
+temp/ 

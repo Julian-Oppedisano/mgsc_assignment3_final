@@ -1,0 +1,5 @@
+Explanation for: pleas bear new game apolog unreservedli hav e post anoth messag earlier mistak digress could anyon t...
+
+Predicted class: 20ng_comp.sys.mac.hardware with 0.0486 confidence
+
+Top features:

@@ -1,0 +1,57 @@
+{
+  "dataset_overview": {
+    "name": "Multi-Dataset Text Classification",
+    "total_samples": 31416,
+    "num_classes": 26,
+    "splits": {
+      "train": 21990,
+      "val": 3142,
+      "test": 6284
+    },
+    "sources": [
+      "20newsgroups",
+      "20newsgroups_augmented",
+      "ag_news",
+      "ag_news_augmented",
+      "imdb",
+      "imdb_augmented"
+    ]
+  },
+  "text_statistics": {
+    "avg_length": 95.8194179172351,
+    "vocabulary_size": 101699
+  },
+  "class_distribution": {
+    "25": 879,
+    "24": 877,
+    "20": 861,
+    "23": 856,
+    "15": 856,
+    "22": 853,
+    "18": 852,
+    "6": 850,
+    "17": 849,
+    "5": 849,
+    "3": 845,
+    "13": 845,
+    "11": 843,
+    "14": 843,
+    "21": 843,
+    "1": 843,
+    "0": 842,
+    "16": 842,
+    "10": 839,
+    "12": 836,
+    "4": 836,
+    "8": 836,
+    "7": 832,
+    "19": 830,
+    "2": 830,
+    "9": 823
+  },
+  "preprocessing": {
+    "transformer_model": "bert-base-uncased",
+    "oov_handled": true,
+    "augmentation_applied": true
+  }
+}
