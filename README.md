@@ -51,8 +51,8 @@ The project demonstrates the complete lifecycle of a text classification system 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mgsc695_assignment3.git
-cd mgsc695_assignment3
+git clone https://github.com/yourusername/mgsc695_assignment3_final.git
+cd mgsc695_assignment3_final
 
 # Create a virtual environment
 python -m venv venv
